@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        body {
+            background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(op問卷素材/map.jpg);
+            background-position: center;
+            background-size: 100%;
+            font-family: Arial;
+            font-size: 20px;
+        }
+        #BG{
+        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(op問卷素材/BG.jpg);
+
+        }
+    </style>
+
+    <link rel="stylesheet" href="CSS/問卷.css">
+</head>
+
+<body>
+    <form action="">
+        <div id="BG" style="width: 60%; border:1px rgb(90, 60, 60) solid; margin: auto; ">
+
+            <div>
+                <img style="width: 20%; display:block; margin:auto;" src="op問卷素材/OPLogo.svg.png" alt="">
+
+
+            </div>
+
+            <div>
+                <table>
+                    <tr>
+                        <th>
+                            <img src="op問卷素材/img up.jpg " alt="">
+                        </th>
+                        <th style="vertical-align: top; text-align: left;">
+                            作品以虛構的「大海賊時代」為故事舞台，描述海賊蒙其·D·魯夫想要得到「ONE PIECE」
+                            （一個大秘寶）和成為「海賊王」為夢想而出海向「偉大的航道」航行的海洋冒險故事。
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+            <div>
+                <div class="question">
+                    <p> <b>基本資料</b> </p>
+
+                    <span>性別:</span>
+                    <select name="sexual">
+                        <option value="male">男</option>
+                        <option value="female">女</option>
+                        <option value="nonsex">無</option>
+                    </select>
+                    <br>
+                    年齡:
+                    <input type="radio" id="age1" name="age">
+                    <label for="age1">15以下</label>
+                    <input type="radio" id="age2" name="age">
+                    <label for="age2">15~30</label>
+                    <input type="radio" id="age3" name="age">
+                    <label for="age3">30~50</label>
+                    <input type="radio" id="age4" name="age">
+                    <label for="age4">50以上</label>
+                </div>
+                <hr>
+                <div class="question">
+                    Q1. 請問何者為你最喜歡的人物角色?
+                    <br>
+                    <input type="radio" id="role1" name="role">
+                    <label for="role1"> 路飛<img class=oproleimg width="20px" src="op問卷素材/路飛.png" alt=""></label>
+                    <input type="radio" id="role2" name="role">
+                    <label for="role2">索隆<img class=oproleimg width="20px" src="op問卷素材/索隆.png" alt=""></label>
+                    <input type="radio" id="role3" name="role">
+                    <label for="role3">香吉士<img class=oproleimg width="20px" src="op問卷素材/香吉士.png" alt=""></label>
+                    <input type="radio" id="role4" name="role">
+                    <label for="role4">騙人布<img class=oproleimg width="20px" src="op問卷素材/騙人布.png" alt=""></label>
+                    <br>
+                    <input type="radio" id="role5" name="role">
+                    <label for="role5">娜美<img class=oproleimg width="20px" src="op問卷素材/娜美.png" alt=""></label>
+                    <input type="radio" id="role6" name="role">
+                    <label for="role6">羅賓<img class=oproleimg width="20px" src="op問卷素材/羅賓.png" alt=""></label>
+                    <input type="radio" id="role7" name="role">
+                    <label for="role7">喬巴<img class=oproleimg width="20px" src="op問卷素材/喬巴.png" alt=""></label>
+                </div>
+                <br>
+                <div class="question">
+                    Q2. 如果今天在地上看到一顆惡魔果實，你覺得是什麼果實?
+                    <br>
+                    <input type="radio" id="fruit1" name="fruit">
+                    <label for="fruit1">轟雷果實</label>
+                    <input type="radio" id="fruit2" name="fruit">
+                    <label for="fruit2">透明果實</label>
+                    <input type="radio" id="fruit3" name="fruit">
+                    <label for="fruit3">橡膠果實</label>
+                    <input type="radio" id="fruit4" name="fruit">
+                    <label for="fruit4">燒燒果實</label>
+                    <br>
+                    <div onmousedown="alert('就跟你說不要，21小時後再來吧!'); window.close()">
+                        <label for="fruit5" style="color: rebeccapurple;">其他 (別~拜託不要)</label>
+                        <input type="text" id="fruit5" name="fruit">
+                    </div>
+
+                </div class="question">
+                <br>
+                <div class="question">
+                    Q3. 哪一篇章最印象深刻?
+                    <br>
+                    <table>
+                        <tr style="height: 250px;">
+                            <td style="width: 10%;">
+                                <input type="radio" id="chapter1" name="chapter">
+                                <label for="chapter1">阿拉巴斯坦篇</label><br>
+                                <input type="radio" id="chapter2" name="chapter">
+                                <label for="chapter2">水之七島篇</label><br>
+                                <input type="radio" id="chapter3" name="chapter">
+                                <label for="chapter3">空島篇</label><br>
+                                <input type="radio" id="chapter4" name="chapter">
+                                <label for="chapter4">頂上戰爭篇</label><br>
+                                <input type="radio" id="chapter5" name="chapter">
+                                <label for="chapter5">海底監獄篇</label>
+                            </td>
+                            <td class="slider_container" style="width:20%;">
+
+                                <div> <img style="height: 250px; width: 350px;" src="op問卷素材/阿拉巴斯坦.jpg" alt=""></div>
+                                <div> <img style="height: 250px;width: 350px;" src="op問卷素材/水之七島.JPG" alt=""></div>
+                                <div> <img style="height: 250px;width: 350px;" src="op問卷素材/空島.jpg" alt=""></div>
+                                <div> <img style="height: 250px;width: 350px;" src="op問卷素材/頂上戰爭.jpg" alt=""></div>
+                                <div> <img style="height: 250px;width: 350px;" src="op問卷素材/海底監獄.jpg" alt=""></div>
+                            </td>
+
+                        </tr>
+                    </table>
+
+
+
+                    <br>
+
+                </div>
+                <div class="question">
+                    Q4. 覺得最感人的場景?
+
+
+                    <form action="">
+                        <input type="text" id="" name="" value="梅莉~">
+                    </form>
+
+
+
+                </div>
+                <br>
+                <br>
+                <div class="question">
+                    冷知識，猜猜看摩利亞額頭X數目何者正確?
+                    <input type="radio" id="left" name="LR">
+                    <label for="left" onmousedown="alert('Bingo');">左圖</label>
+                    <input type="radio" id="right" name="LR">
+                    <label for="right">右圖</label>
+                    <br>
+                    <img width="50%" src="op問卷素材/摩利亞.JPG" alt="">
+
+                </div>
+                <br>
+                <div>
+                    其他建議
+                    <form action="">
+                        <textarea name="" id="" cols="30" rows="4">您的寶貴意見，我們都會虛心指教。
+                    </textarea>
+                    </form>
+
+                </div>
+                <div>
+                    <input type="submit" value=提交>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+    </form>
+</body>
+
+</html>

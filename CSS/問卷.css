@@ -1,0 +1,82 @@
+
+
+#BG {
+
+background-position: center;
+background-size: 100%;
+padding: 10px;
+}
+
+.question {
+font-size: 20px;
+}
+
+
+.slider_container {
+margin: 0px;
+vertical-align: top;
+}
+
+.slider_container div {
+position: absolute;
+display: block;
+width: 50%;
+
+}
+
+.slider_container div {
+
+animation: round 20s linear infinite;
+
+
+
+}
+@keyframes round {
+4% {
+opacity: 1;
+filter: opacity(0);
+}
+
+20% {
+opacity: 1;
+filter: opacity(0);
+}
+24% {
+opacity: 0;
+filter: opacity(1);
+
+}
+
+}
+
+
+
+.slider_container div:nth-child(5) {
+
+animation-delay: 0s;
+}
+.slider_container div:nth-child(4) {
+
+animation-delay: 4s;
+}
+
+.slider_container div:nth-child(3) {
+
+animation-delay: 8s;
+}
+
+.slider_container div:nth-child(2) {
+
+animation-delay: 12s;
+}
+
+.slider_container div:nth-child(1) {
+
+animation-delay: 16s;
+}
+
+
+
+.oproleimg:hover {
+transform: scale(2.5, 2.5);
+}
